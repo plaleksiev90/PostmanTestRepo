@@ -1128,7 +1128,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Ping is successful\", function () {",
-							"    pm.response.to.be.error;",
+							"    pm.response.to.be.success;",
 							"    ",
 							"});",
 							"postman.setNextRequest(null);"
